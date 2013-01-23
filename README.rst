@@ -19,7 +19,6 @@ Usage
 * Add besmart_common to INSTALLED_APPS
 
 ::
-
 	INSTALLED_APPS = [
 	    # ...
 	    "besmart_common",
