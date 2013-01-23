@@ -38,4 +38,10 @@ Usage
     url(r'^URL/$', 'VIEW', name='VIEW_NAME', kwargs={'accept_methods': ['POST', 'GET']}),
 
 
+* Add **kwargs param into your views' parameter to avoid of any Exception which can take place
+
+
+    def VIEW_NAME(request, **kwargs):
+        # YOU CODE
+
 Have fun!
