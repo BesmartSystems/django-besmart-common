@@ -44,7 +44,7 @@ class AllowedMethodsMiddleware(object):
 
 
 # the middleware class 
-class TerminalLoggingMiddleware:
+class TerminalLoggingMiddleware(object):
     def process_response(self, request, response):
         if settings.DEBUG and stdout.isatty():
             for query in connection.queries :
